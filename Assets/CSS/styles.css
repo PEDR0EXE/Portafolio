@@ -1,13 +1,11 @@
+
+/*es funcion es para agregar una imagen de fondo independiente en la seccion donde sea */
 body {
-
     width: 100%;
-
     /*Ppara dejar un ancho y un alto minimo para mostrar la  imagen de fondo*/
     min-width: 500px;
     min-height: 1000px;
-
     background-image: url("/Assets/IMG/693876.jpg");
-
     /*Para dejar un tamaño de fondo*/
     background-size: 100% 80%;
     /* Ajusta la imagen para cubrir todo el contenedor */
@@ -16,6 +14,7 @@ body {
 
 }
 
+/*es una funcion para desminuir la foto de perfil ademas rendondear la foto porque la imagen es muy grande  */
 .redondearImgPerfil {
     width: 100px;
     height: 107px;
@@ -46,33 +45,33 @@ body {
     /* Alinea el h3 y la imagen verticalmente */
 }
 
+
+/*cada contenedor dimensiona el ancho depediendo el contenido  */
+
 .contenedor2 {
-    max-width: 500px;
+    max-width: 500px; /*le da una limitacion maxima de ancho en la pagina web */
     margin-left: 100px;
-    /* Centrar horizontalmente */
     padding: 20px;
     background-color: #89BAC8;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; /* agrega un borde al contenedor de forma fina */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/* crea una sombra fina a la pagina   */
 }
 
 .contenedor3 {
-    max-width: 950px;
+    max-width: 950px; /*le da una limitacion maxima de ancho en la pagina web */
     margin-left: 50px;
-    /* Centrar horizontalmente */
     padding: 20px;
     background-color: #89BAC8;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; /* agrega un borde al contenedor de forma fina */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/* crea una sombra fina a la pagina   */
 }
 .contenedor4 {
-    max-width: 850px;
+    max-width: 850px; /*le da una limitacion maxima de ancho en la pagina web */
     margin-left: 20px;
-    /* Centrar horizontalmente */
     padding: 20px;
     background-color: #89BAC8;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; /* agrega un borde al contenedor de forma fina */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/* crea una sombra fina a la pagina   */
 }
 
 table {
@@ -95,6 +94,9 @@ thead {
     /* Color de fondo para el encabezado */
 }
 
+
+
+/* para dimensionar de una imagen pequeña en la seccion de los pasatiempos de una manera ajustable */
 .imagenjuego{
  width: 200px;
  height: 200px;
