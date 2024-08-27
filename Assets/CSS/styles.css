@@ -1,16 +1,22 @@
+body {
 
-body{
-    
     width: 100%;
+
+    /*Ppara dejar un ancho y un alto minimo para mostrar la  imagen de fondo*/
     min-width: 500px;
     min-height: 1000px;
+
     background-image: url("/Assets/IMG/693876.jpg");
-    background-size: 100% 80% ; /* Ajusta la imagen para cubrir todo el contenedor */
-    background-repeat:round; /* Evita que la imagen se repita */
-    
+
+    /*Para dejar un tamaño de fondo*/
+    background-size: 100% 80%;
+    /* Ajusta la imagen para cubrir todo el contenedor */
+    background-repeat: round;
+    /* Evita que la imagen se repita ademas en caso que se  agrega mas contenido se pueda extender la imagen  */
+
 }
 
-.redondearImgPerfil{
+.redondearImgPerfil {
     width: 100px;
     height: 107px;
     border-top-left-radius: 400px;
@@ -30,26 +36,39 @@ body{
     display: block;
 }
 
-.separacion{
+.separacion {
     margin: 30px;
 }
 
 .container {
     display: flex;
-    align-items: initial; /* Alinea el h3 y la imagen verticalmente */
+    align-items: initial;
+    /* Alinea el h3 y la imagen verticalmente */
 }
 
-.contenedor2{
+.contenedor2 {
     max-width: 500px;
-    margin-left: 100px; /* Centrar horizontalmente */
+    margin-left: 100px;
+    /* Centrar horizontalmente */
     padding: 20px;
     background-color: #89BAC8;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.contenedor3{
+
+.contenedor3 {
     max-width: 950px;
-    margin-left: 50px; /* Centrar horizontalmente */
+    margin-left: 50px;
+    /* Centrar horizontalmente */
+    padding: 20px;
+    background-color: #89BAC8;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contenedor4 {
+    max-width: 850px;
+    margin-left: 20px;
+    /* Centrar horizontalmente */
     padding: 20px;
     background-color: #89BAC8;
     border: 1px solid #ccc;
@@ -58,14 +77,25 @@ body{
 
 table {
     width: 100%;
-    border-collapse: collapse; /* Elimina el espacio entre bordes de celdas */
-}
-th, td {
-    border: 1px solid #dddddd5b; /* Bordes de las celdas */
-    padding: 8px;
-    text-align: center; /* Alineación central de contenido */
-}
-thead {
-    background-color: #f2f2f2; /* Color de fondo para el encabezado */
+    border-collapse: collapse;
+    /* Elimina el espacio entre bordes de celdas */
 }
 
+th,
+td {
+    border: 1px solid #dddddd5b;
+    /* Bordes de las celdas */
+    padding: 8px;
+    text-align: center;
+    /* Alineación central de contenido */
+}
+
+thead {
+    background-color: #f2f2f2;
+    /* Color de fondo para el encabezado */
+}
+
+.imagenjuego{
+ width: 200px;
+ height: 200px;
+}
