@@ -12,6 +12,9 @@ const experienciaEstudio = [
   { anio: 2017, estudio: "4 to medio" },
 ];
 
+
+// quise cambie el for of a foreach para agregar mas conocimineto no ttene monotonia con el mismo procedimiento 
+
 function mostrarEstudios() {
   let contEstudios = "";
   experienciaEstudio.forEach((estudio) => {
@@ -21,6 +24,9 @@ function mostrarEstudios() {
 
   estudioBody.innerHTML = contEstudios;
 }
+
+
+//para automatizar el contenido de perfil 
 
 const perfil = {
   nombre: "Pedro Pablo",

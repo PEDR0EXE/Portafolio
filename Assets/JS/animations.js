@@ -13,7 +13,7 @@ const imageKnight = document.getElementById("imageKnight");
 const currentPage = window.location.pathname.split("/").pop();
 
 //Cambia la imagen a Gif Al Pasar el mouse 
-/* quise agregar ese cambio de png a gif para que se una pagina muy dinamica clasica de antiguas paginas web */
+/* quise agregar ese cambio de png a gif o viceversa para que se una pagina muy dinamica clasica de antiguas paginas web */
 
 thiefContainer.addEventListener("mouseover", () => {
   if (currentPage.toLowerCase() === "index.html") {
